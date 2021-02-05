@@ -1,0 +1,12 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["Ahmad Nadeem Saigol <ahmadsaigol1@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+h2 = "0.2"
+http = "0.2"
+tokio = { version = "0.2", features = ["full"] }
